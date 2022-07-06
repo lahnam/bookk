@@ -1,0 +1,340 @@
+html{
+    background-image: url(../image/julian-hochgesang-7SV4cz3UFEI-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+/*Heading*/
+h1{
+    padding: 50px;
+    padding-top: 1.5px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+/*Name and title*/
+.container{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px 10px 25px 25px;
+}
+
+.form-row{
+    padding: 10px 0;
+    display: flex;
+}
+
+.form-row label{
+    padding-right: 10px;
+}
+
+.form-row input{
+    flex: 1;
+}
+
+/*Main menu*/
+.column{
+    max-width: 1300px;
+    background-color: #fff;
+    margin: 40px 10px 0 10px;
+    line-height: 1.65;
+    padding: 20px 50-x;
+    display: flex;
+    border-radius: 10px;
+}
+
+.main-column{
+    flex: 3;
+    order: 2;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main-column h2{
+    text-align: center;
+}
+
+.sidebar-one{
+    flex: 1;
+    order: 1;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.sidebar-one h3{
+    text-align: center;
+}
+
+.sidebar-two{
+    flex: 1;
+    order: 3;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.sidebar-two h3{
+    text-align: center;
+}
+
+/*Three Container*/
+.call-outs-container{
+    max-width: 1400px;
+    margin: 40px 10px 0 10px;
+    display: flex;
+}
+
+.call-out{
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    margin-right: 40px;
+    border-radius: 10px 20px;
+}
+
+.call-out p{
+    text-align: justify;
+}
+
+.call-out h4{
+    text-align: center;
+}
+
+.call-out:last-child{
+    margin-right: 0;
+}
+
+.call-out:nth-child(1) {background-color: #c0dbe2;}
+.call-out:nth-child(2) {background-color: #cdf1c3;}
+.call-out:nth-child(3) {background-color:aqua;}
+
+/*Six Container*/
+.fixed-size-container{
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    background-color: white;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.fixed-size-a{
+    width: 150px;
+    height: 100px;
+    background-color: beige;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+    background-image: url(../image/book-a.jpg);
+    background-position: center center;
+    background-size:cover;
+}
+
+.fixed-size-b{
+    width: 150px;
+    height: 100px;
+    background-color: beige;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+    background-image: url(../image/book-b.jpg);
+    background-position: center center;
+    background-size:cover;
+}
+
+.fixed-size-c{
+    width: 150px;
+    height: 100px;
+    background-color: beige;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+    background-image: url(../image/book-c.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.fixed-size-d{
+    width: 150px;
+    height: 100px;
+    background-color: beige;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+    background-image: url(../image/book-d.jpg);
+    background-position: center center;
+    background-size:cover;
+}
+
+.fixed-size-e{
+    width: 150px;
+    height: 100px;
+    background-color: beige;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+    background-image: url(../image/book-e.jpg);
+    background-position: center center;
+    background-size:cover;
+}
+
+.fixed-size-f{
+    width: 150px;
+    height: 100px;
+    background-color: beige;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+    background-image: url(../image/book-f.jpg);
+    background-position: center center;
+    background-size:cover;
+}
+
+/*Big container*/
+.banner{
+    height: 400px;
+    max-width: 700px;
+    margin: 40px auto 40px auto;
+    background-image: url(../image/vladimir-kondratyev-aTSZxVVNhEQ-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    border-radius: 10px;
+}
+
+.center-me{
+    color: #fff;
+    font-size: 50px;
+    margin:auto;
+}
+
+/*Row and column*/
+.equal-height-container{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.first{
+    background-color: #fff;
+    padding: 20px;
+    flex: 1;
+}
+
+.second{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-a{
+    background-color: #c0dbe2;
+    flex: 1;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.second-b{
+    background-color: #cdf1c3;
+    flex: 1;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+/*Responsive web design*/
+
+/*Main menu*/
+@media screen and (max-width:700px) {
+    .column{
+        display: block;
+        width: 100%;
+        text-align: justify;
+    }
+}
+
+/*Three container*/
+@media screen and (max-width:700px) {
+    .call-outs-container,
+    .call-out{
+        padding-right: 20px;
+        font-size: 20px;
+        display: block;
+        width:100%;
+        text-align: left;
+    }
+}
+
+/*Six container*/
+@media screen and (max-width:700px) {
+    .fixed-size-container{
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px; 
+    }
+}
+
+/*Big container*/
+@media screen and (max-width:700px){
+    .banner{
+       margin-left: 10px;
+       margin-right: -20px;
+        
+    }
+}
+
+
+/*Row and colums*/
+@media screen and (max-width:700px) {
+    .equal-height-container,
+    .first,
+    .second,
+    .second-a
+    .second-b{
+        display: block;
+        width: 100%;
+        float: none;
+        padding-bottom: 10px;
+    }
+    .first{
+        padding-right: 10px;
+    }
+    .second{
+        margin-top: 10px;
+        padding-left: 15px;
+    }
+}
